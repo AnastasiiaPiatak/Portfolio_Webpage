@@ -1,3 +1,17 @@
+:root{
+  --headind-color: #5A6275;
+  --text-color: #7c87a1;
+  --heading-font: "Montserrat", sans-serif;
+  --text-font: "Lora", serif;
+}
+
+
+
+a{
+  color: #5A6275;}
+.main{
+background-color: #F8F9FA;
+}
 
 .text {
   height: auto;
@@ -13,24 +27,33 @@ span{
 }
 
 h1 {
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--heading-font);
   font-size: 50px;
   text-align: left;
   text-transform: uppercase;
+  color: var(--headind-color);
 }
 
 h2 {
-  font-family: "Montserrat", sans-serif;
+  margin-bottom: 20px;
+  font-family: var(--heading-font);
   font-size: 30px;
   text-align: left;
   text-transform: uppercase;
+  color: var(--text-color)
+
+
 }
 .portfolio_photo {
   width: 500px; /* width of container */
   height: 600px; /* height of container */
   object-fit: cover;
+  margin: 15px 0px;
+}
+hr{
+  margin-top: 0;
 }
 
 p {
-  font-family: "Lora", serif;
+  font-family: var(--text-font);
 }
