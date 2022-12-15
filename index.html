@@ -29,7 +29,7 @@
     />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-light fixed-top">
+    <nav class="navbar fixed-top navbar-expand-lg bg-light">
       <div class="container">
         <a class="navbar-brand" href="#">Anastasiia Piatak</a>
         <button
@@ -46,36 +46,156 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
             <a class="nav-link active" aria-current="page" href="#">Home</a>
-            <a class="nav-link" href="#">About me</a>
-            <a class="nav-link" href="#">My projects</a>
+            <a class="nav-link" href="#about_me">About me</a>
+            <a class="nav-link" href="myprojects.html">My projects</a>
             <a class="nav-link" href="#">Contact me</a>
           </div>
         </div>
       </div>
     </nav>
+    <!-- Main part -->
     <div class="main">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-6 text">
-          <div class="content">
-          <h1>
-            Hi, I`m
-            <span>Anastasiia Piatak</span>
-          </h1>
-          <h2>Intern Front-End developer</h2></div>
-        </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 text">
+            <div class="content">
+              <h1>
+                Hi, I`m
+                <span>Anastasiia Piatak</span>
+              </h1>
+              <h2>Intern Front-End developer</h2>
+            </div>
+          </div>
 
-        <div class="col-sm-6">
-          <img
-            src="img/portfolio_photo.jpg"
-            alt="Anastasiia`s photo"
-            class="img-fluid portfolio_photo"
-          />
+          <div class="col-sm-6">
+            <img
+              src="img/portfolio_photo.jpg"
+              alt="Anastasiia`s photo"
+              class="img-fluid portfolio_photo"
+            />
+          </div>
         </div>
       </div>
-    </div></div>
-<hr>
+    </div>
+    <hr />
+    <!-- About me Section -->
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3">
+          <h1 class="number">01</h1>
+        </div>
+        <div class="col-sm-9">
+          <div class="section-light">
+          <h2 id="about_me">About me</h2>
+          <hr class="focus_line" />
+          <p>
+            I'm an Intern Front-end Developer. Want to fully apply my knowledge
+            and potential in IT.
+          </p></div>
+          <br>
+          
+          <!-- Skills -->
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6">
+                <h2 class="about_titles">Hard skills</h2>
+                <ul>
+                  <li>HTML/CSS</li>
+                  <li>Basic JS</li>
+                  <li>Editor (VSCode)</li>
+                  <li>Bootstrap</li>
+                  <li>API</li>
+                  <li>Git+GitHub</li>
+                  <li>Hosting (Netlify)</li>
+                </ul>
+              </div>
+              <div class="col-sm-6">
+                <h2 class="about_titles">Soft skills</h2>
+                <ul>
+                  <li>Responsibility</li>
+                  <li>Adaptability</li>
+                  <li>Quick learning</li>
+                  <li>Strong attention to details</li>
+                  <li>Creativity</li>
+                  <li>Resilience</li>
+                  <li>Communication skills</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <br>
 
-
+          <!-- Education -->
+          <h2 class="about_titles">Education</h2>
+          <div class="container">
+            <div class="row">
+              <div class="card" style="width: 18rem">
+                <div class="image-container">
+                <img
+                  src="https://itea.ua/wp-content/uploads/2019/06/design.png"
+                  class="card-img-top edu_images"
+                  alt="ITEA logo"
+                /></div>
+                <div class="card-body">
+                  <h5 class="card-title">ITEA</h5>
+                  <p>Dec 2022</p>
+                  <p class="card-text">Front-End Developer</p>
+                  <a href="#" class="btn btn-primary">Know more</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem">
+                <div class="image-container">
+                <img
+                  src="https://shecodes-assets.s3.amazonaws.com/open-graph/shecodes/banner.png"
+                  class="card-img-top edu_images w-75"
+                  alt="SheCodes logo"
+                /></div>
+                <div class="card-body">
+                  <h5 class="card-title">SheCodes</h5>
+                  <p>Aug-Dec 2022</p>
+                  <p class="card-text">Introduction to coding</p>
+                  <p class="card-text">Web Development</p>
+                  <p class="card-text">Responsive Web Development</p>
+                  <a href="#" class="btn btn-primary">Know more</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem">
+                <div class="image-container">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Nulp_logo_ukr.jpg/280px-Nulp_logo_ukr.jpg"
+                  class="card-img-top edu_images w-50"
+                  alt='"Lviv Polytechnic" National University'
+                /></div>
+                <div class="card-body">
+                  <h5 class="card-title">
+                    "Lviv Polytechnic" National University
+                  </h5>
+                  <p>2017 - 2022</p>
+                  <p class="card-text">Psychology Bachelor`s Degree</p>
+                  <p class="card-text">Psychology Magistracy`s Degree</p>
+                  <a href="#" class="btn btn-primary">Know more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br>
+         
+          <!-- Languages -->
+          <h2 class="about_titles">Languages</h2>
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-3">
+                <p>English</p>
+              </div>
+              <div class="col-sm-3"><p>B2</p></div>
+            </div>
+            <div class="row">
+              <div class="col-sm-3"><p>Ukrainian</p></div>
+              <div class="col-sm-3"><p>Native</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

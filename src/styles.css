@@ -1,14 +1,11 @@
 :root{
   --headind-color: #5A6275;
-  --text-color: #7c87a1;
+  --text-color: #979da9;
   --heading-font: "Montserrat", sans-serif;
   --text-font: "Lora", serif;
 }
 
 
-
-a{
-  color: #5A6275;}
 .main{
 background-color: #F8F9FA;
 }
@@ -52,8 +49,49 @@ h2 {
 }
 hr{
   margin-top: 0;
+
 }
+.number{
+  font-size: 200px;
+  text-align: center;
+}
+
+.section-light{
+  
+}
+
+.focus_line{
+  border: 0;
+  width: 10%; 
+  background-color:#E56F82; 
+  height: 2px;
+  opacity: 1;
+  }
 
 p {
   font-family: var(--text-font);
+}
+
+li{
+  font-family: var(--text-font);
+}
+
+.about_titles{
+  text-align: center;
+}
+
+.image-container{
+height: 150px;
+}
+
+.edu_images{
+  display: block;
+  margin: 30px auto;
+}
+.card-title{
+  font-family: var(--heading-font);
+  font-size: 20px;
+  text-align: left;
+  text-transform: uppercase;
+  color: var(--text-color)
 }
