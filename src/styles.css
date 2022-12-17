@@ -155,5 +155,12 @@ text-decoration: none;
     .text{
       padding-top: 20px;
     }
-
+    .border-end{
+      border-color:transparent !important;
+    }
+  }
+  @media(max-width:1200px){
+    .contact-me_links{
+      word-break: break-all;
+    }
   }
