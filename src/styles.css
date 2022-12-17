@@ -5,6 +5,10 @@
   --text-font: "Lora", serif;
 }
 
+:target{
+  scroll-margin-top: 76px;
+}
+
 
 .main{
 background-color: #F8F9FA;
@@ -125,3 +129,16 @@ letter-spacing: .2rem;
 text-decoration: none;
 
 }
+
+.contact-me__container{
+  margin: 5% 5%;
+}
+.contact-me_links{
+color: #E56F82;
+letter-spacing: .2rem;
+text-decoration: none;
+}
+.border-end{
+   border-color: #e56f82 !important;
+
+  }
