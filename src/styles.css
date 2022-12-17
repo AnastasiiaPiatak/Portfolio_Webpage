@@ -118,9 +118,13 @@ height: 150px;
   text-transform: uppercase;
   color: var(--text-color)
 }
-.education_cards,
+
 .my-projects__cards{
   margin: 0 5%;
+}
+.education_cards{
+margin: 0 auto;
+display: block;
 }
 .know-more__links{
 color: #E56F82;
