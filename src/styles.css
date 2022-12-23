@@ -5,6 +5,7 @@
   --heading-font: "Montserrat", sans-serif;
   --text-font: "Lora", serif;
   --focus-color: #e56f82;
+  --dark-color: #3f4553;
 }
 
 :target {
@@ -20,15 +21,24 @@
   background: var(--light-color);
 }
 
-
-
 body{
   transition: all .5s ease-out;
 }
 
 body.dark{
   background: var(--headind-color);
+  color: var(--light-color);
+}
+body.dark h1{
+  color: var(--focus-color);
+}
 
+body.dark .number{
+  color: var(--focus-color);
+}
+
+body.dark .footer{
+  background: var(--dark-color);
 }
 
 .light-dark_btn{
