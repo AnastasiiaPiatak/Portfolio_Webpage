@@ -95,6 +95,10 @@ li{
   font-family: var(--text-font);
 }
 
+li::marker{
+  color: var(--focus-color);
+}
+
 .about_titles{
   text-align: center;
 }
