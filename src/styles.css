@@ -1,6 +1,7 @@
 :root{
   --headind-color: #5A6275;
   --text-color: #979da9;
+  --light-color:#F8F9FA;
   --heading-font: "Montserrat", sans-serif;
   --text-font: "Lora", serif;
   --focus-color: #E56F82;
@@ -23,7 +24,7 @@
 /* Main content */
 
 .main{
-background-color: #F8F9FA;
+background-color: var(--light-color);
 }
 
 .text {
@@ -191,7 +192,7 @@ text-decoration: none;
 /*Footer*/
       .footer {
         background-color: #5A6275;
-        color: #ebebe3;
+        color: var(--light-color);
         font-family: var(--text-font);
       }
 
@@ -207,11 +208,11 @@ text-decoration: none;
 
       .footer a {
         text-decoration: none;
-        color: #ebebe3;
+        color: var(--light-color);
         transition: all 0.3s;
       }
       .footer li {
-        color: #ebebe3;
+        color: var(--light-color);
       }
 
       .footer a:hover {
