@@ -11,6 +11,37 @@
   scroll-margin-top: 76px;
 }
 /* Navbar */
+.light-dark_mode{
+  display: flex;
+  justify-content: start;
+  align-items:flex-start;
+  width: 10%;
+  height: 2vh;
+  background: var(--light-color);
+}
+
+.light-dark_btn{
+  width: 40px;
+  height: 20px;
+  border: 1px solid black;
+  border-radius: 60px;
+  position: relative;
+  cursor: pointer;
+}
+
+.light-dark_btn::before{
+  content: '';
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background: black;
+  border-radius: 50%;
+  top: 50%;
+  left: 2px;
+  transform: translateY(-50%);
+}
+
+
 .navbar-brand {
   font-family: var(--heading-font);
   font-size: 17px;
