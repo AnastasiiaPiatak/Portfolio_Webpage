@@ -77,8 +77,6 @@ hr{
   padding-top: 50px;
 }
 
-
-
 .about-me__focus_line{
   border: 0;
   width: 10%; 
@@ -104,12 +102,17 @@ li::marker{
 }
 
 .image-container{
-height: 150px;
+height: 40%;
 }
 
 .education_cards{
 margin: 0 auto;
 display: block;
+}
+
+.education_date{
+  color: var(--headind-color);
+  font-weight: 700;
 }
 
 .education__card{
