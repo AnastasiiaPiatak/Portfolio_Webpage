@@ -111,6 +111,17 @@ height: 150px;
 margin: 0 auto;
 display: block;
 }
+
+.education__card{
+  position: relative;
+
+}
+
+.education__card a{
+position: absolute;
+bottom: 3%;
+}
+
 .edu_images{
   display: block;
   margin: 30px auto;
@@ -152,6 +163,11 @@ color: var(--focus-color);
 text-transform: uppercase;
 letter-spacing: .2rem;
 text-decoration: none;
+}
+
+.know-more__links:hover{
+  text-decoration: none;
+  color: var(--headind-color);
 }
 
 /* Contact me section */
