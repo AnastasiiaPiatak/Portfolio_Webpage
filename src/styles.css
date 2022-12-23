@@ -20,27 +20,46 @@
   background: var(--light-color);
 }
 
+
+
+body{
+  transition: all .5s ease-out;
+}
+
+body.dark{
+  background: var(--headind-color);
+
+}
+
 .light-dark_btn{
   width: 40px;
   height: 20px;
-  border: 1px solid black;
+  border: 1px solid var(--headind-color);
   border-radius: 60px;
   position: relative;
   cursor: pointer;
+}
+
+.light-dark_btn:hover{
+  border: 1px solid var(--headind-color);
 }
 
 .light-dark_btn::before{
   content: '';
   position: absolute;
   width: 16px;
-  height: 16px;
-  background: black;
+  height: 15px;
+  background: var(--headind-color);
   border-radius: 50%;
   top: 50%;
-  left: 2px;
+  left: 1px;
   transform: translateY(-50%);
+  transition: all .5s ease-out;
 }
 
+.light-dark_btn.dark::before{
+  left: 19px;
+}
 
 .navbar-brand {
   font-family: var(--heading-font);
