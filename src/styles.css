@@ -78,7 +78,10 @@ body.dark .nav-link{
   font-family: var(--heading-font);
   font-size: 17px;
   color: var(--focus-color);
-  
+}
+
+.nav-link{
+  font-family: var(--text-font);
 }
 
 .navbar-brand:hover{
