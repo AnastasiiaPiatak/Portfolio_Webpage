@@ -78,6 +78,12 @@ body.dark .nav-link{
   font-family: var(--heading-font);
   font-size: 17px;
   color: var(--focus-color);
+  
+}
+
+.navbar-brand:hover{
+  color: var(--focus-color);
+  text-decoration: none;
 }
 
 .navbar-nav .nav-link.active,
