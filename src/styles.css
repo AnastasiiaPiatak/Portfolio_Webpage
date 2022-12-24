@@ -31,7 +31,8 @@ body {
 }
 
 #toggleBtn:hover {
-  background: var(--light-color);
+  background: transparent;
+  transition: all 0.3s ease-out;
 }
 
 #toggleBtn img {
@@ -49,17 +50,26 @@ body.dark h1 {
 
 body.dark .footer {
   background: var(--dark-footer);
+  transition: all 0.3s ease-out;
 }
 
 body.dark .education__card {
   background-color: #26282e;
 }
 
-.dark__navbar {
-  background-color: #26282e;
+body.dark .nav-link{
+  color: var(--light-color);
+}
+
+.dark_navbar{
+  background-color: var(--dark-color);
 }
 
 /* Navbar */
+
+.navbar{
+  transition: all 0.3s ease-out;
+}
 
 .navbar-brand {
   font-family: var(--heading-font);
@@ -261,6 +271,7 @@ li::marker {
   background-color: var(--headind-color);
   color: var(--light-color);
   font-family: var(--text-font);
+  transition: all 0.3s ease-out;
 }
 
 h4 {
@@ -323,12 +334,13 @@ div .know_more {
 }
 
 @media (max-width: 560px) {
-  .language_gorizontal-icon {
-    display: none !important;
-  }
   .language_vertical-icon {
-    display: inline-block !important;
+    display: inline;
   }
+  .language_gorizontal-icon {
+    display: none;
+  }
+
   .number {
     font-size: 30vw;
     padding-top: 0;
@@ -354,7 +366,7 @@ div .know_more {
   .card-text__list {
     font-size: 1.5vh;
   }
-  h1{
+  h1 {
     font-size: 6vmin;
   }
 }
