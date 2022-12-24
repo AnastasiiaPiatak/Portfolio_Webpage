@@ -6,6 +6,7 @@
   --text-font: "Lora", serif;
   --focus-color: #e56f82;
   --dark-color: #373b43;
+  --dark-focus:#26282e;
   --dark-footer: #121316;
 }
 
@@ -53,9 +54,11 @@ body.dark .footer {
   transition: all 0.3s ease-out;
 }
 
-body.dark .education__card {
-  background-color: #26282e;
+body.dark .education__card, body.dark .my-projects__card{
+  background-color: var(--dark-focus);
 }
+
+
 
 body.dark .nav-link{
   color: var(--light-color);
@@ -238,6 +241,10 @@ li::marker {
 
 .my-projects__cards {
   margin: 0 5%;
+}
+
+.my-projects__card{
+transition: all 0.3s ease-out;
 }
 
 .know-more__links {

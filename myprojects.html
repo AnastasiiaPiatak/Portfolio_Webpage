@@ -30,8 +30,16 @@
     />
   </head>
   <body>
-    <nav class="navbar fixed-top navbar-expand-lg bg-light">
+    <nav class="navbar fixed-top navbar-expand-lg bg-light" id="navbar">
       <div class="container">
+        <button id="toggleBtn">
+            <img
+              src="img/moon.png"
+              id="toggleImg"
+              alt="Moon"
+              title="Switch the dark theme"
+            />
+          </button>
         <a class="navbar-brand" href="#">Anastasiia Piatak</a>
         <button
           class="navbar-toggler"
@@ -73,7 +81,7 @@
     <br />
     <div class="row row-cols-1 row-cols-md-3 g-4 my-projects__cards">
       <div class="col">
-        <div class="card h-100">
+        <div class="card h-100 my-projects__card">
           <img
             src="img/violin-site.png"
             class="card-img-top"
@@ -89,7 +97,7 @@
         </div>
       </div>
       <div class="col">
-        <div class="card h-100">
+        <div class="card h-100 my-projects__card">
           <img
             src="img/weather-site.png"
             class="card-img-top"
@@ -105,7 +113,7 @@
         </div>
       </div>
       <div class="col">
-        <div class="card h-100">
+        <div class="card h-100 my-projects__card">
           <img
             src="img/homepage-site.png"
             class="card-img-top"
@@ -195,5 +203,6 @@
         </div>
       </section>
     </footer>
+     <script src="src/script.js"></script>
   </body>
 </html>
