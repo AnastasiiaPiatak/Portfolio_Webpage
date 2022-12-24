@@ -342,7 +342,7 @@ div .know_more {
 
 @media (max-width: 560px) {
   .language_vertical-icon {
-    display: inline;
+    display: block;
   }
   .language_gorizontal-icon {
     display: none;
