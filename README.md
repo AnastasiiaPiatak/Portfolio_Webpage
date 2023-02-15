@@ -6,4 +6,4 @@ Skills used:
 3) Vanilla JavaScript;
 4) Flexbox;
 5) Multiple Page Hosting;
-6)) Media Queries
+6) Media Queries.
